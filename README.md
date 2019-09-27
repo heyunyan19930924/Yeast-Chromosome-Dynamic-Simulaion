@@ -7,3 +7,5 @@ The simulation pipeline uses DataTank, a numerical working environment as user i
 1.	Yeast_Chromosome_Dynamics_Simulator.tank—The main file for the simulation pipeline contains 1). The interface to enter input parameters and settings. 2). The port connecting to simulation program. 3). Visualization module. 4). Modules for stochastic analyses.
 
 2.	Microscope_Simulator.tank—Microscope simulator pipeline functions to convert numerical results to experimental microscope images. This enables direct statistical comparison of geometries between simulated chromosomes and experimental observations.
+
+3.  Community_Detection_Analysis.tank—The community detection pipeline applies a multilayer modularity optimization process to detect community behavior during chromosomal interactions in simulation results.
